@@ -170,7 +170,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-counturl", "http://0x0800.github.io/2048-PANTONE");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + "-" + this.level + " at 2048-PANTONE #2048game";
+  var text = "I scored " + this.score + "-" + caption(this.level) + " at 2048-PANTONE #2048game";
   tweet.setAttribute("data-text", text);
 
   return tweet;

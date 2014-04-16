@@ -330,54 +330,54 @@ hr {
       width: 100%;
       height: 100%; }
   .tile.tile-2 .tile-inner {
-    background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: white;
+    background: white; }
   .tile.tile-4 .tile-inner {
-    background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: white;
+    background: white; }
   .tile.tile-8 .tile-inner {
-    background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: white;
+    background: white; }
   .tile.tile-16 .tile-inner {
-    background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: white;
+    background: white; }
   .tile.tile-32 .tile-inner {
-    background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762); }
+    color: white;
+    background: white; }
   .tile.tile-64 .tile-inner {
-    background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524); }
+    color: white;
+    background: white; }
   .tile.tile-128 .tile-inner {
+    color: white;
     background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
+    color: white;
     background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
+    color: white;
     background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
+    color: white;
     background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
+    color: white;
     background: white;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
@@ -788,48 +788,48 @@ hr {
     height: 100%; }
 
 .cell-2 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  color: white;
+  background: white; }
 
 .cell-4 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  color: white;
+  background: white; }
 
 .cell-8 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  color: white;
+  background: white; }
 
 .cell-16 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  color: white;
+  background: white; }
 
 .cell-32 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762); }
+  color: white;
+  background: white; }
 
 .cell-64 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524); }
+  color: white;
+  background: white; }
 
 .cell-128 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286); }
+  color: white;
+  background: white; }
 
 .cell-256 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048); }
+  color: white;
+  background: white; }
 
 .cell-512 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381); }
+  color: white;
+  background: white; }
 
 .cell-1024 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571); }
+  color: white;
+  background: white; }
 
 .cell-2048 {
-  background: white;
-  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  color: white;
+  background: white; }
 
 .repo-link {
   margin-top: 40px;

@@ -33,17 +33,17 @@ $base: 2;
 $limit: 11;
 
 // Colors for all 11 states, false = no special color
-$special-colors: false false, // 2
-                 false false, // 4
-                 false false, // 8
-                 false false, // 16
-                 false false, // 32
-                 false false, // 64
-                 false false, // 128
-                 false false, // 256
-                 false false, // 512
-                 false false, // 1024
-                 false false; // 2048
+$special-colors: #485d68 true, // 2
+                 #2ca796 true, // 4
+                 #8e4c0c true, // 8
+                 #ac1d7f true, // 16
+                 #ffc605 true, // 32
+                 #009dcd true, // 64
+                 #007541 true, // 128
+                 #ff5500 true, // 256
+                 #bfcc09 true, // 512
+                 #003669 true, // 1024
+                 #f42c59 true; // 2048
 
 $title-container-size: 30px;
 

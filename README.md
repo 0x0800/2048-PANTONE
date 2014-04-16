@@ -1,6 +1,6 @@
-Tiffany version of [2048](http://gabrielecirulli.github.io/2048/) game
+Pantone version of [2048](http://gabrielecirulli.github.io/2048/) game
 ========================================================================
 
-Play here: http://git.io/tiffany
+Play here: http://git.io/pantone
 
-[![2048 TIFFANY](http://oi59.tinypic.com/10wk1uf.jpg)](http://git.io/tiffany)
+[![2048 PANTONE](http://oi58.tinypic.com/1zwzv41.jpg)](http://git.io/pantone)

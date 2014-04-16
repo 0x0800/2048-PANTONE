@@ -320,7 +320,6 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: white;
     text-align: center;
     font-weight: bold;
     z-index: 10;
@@ -331,60 +330,59 @@ hr {
       height: 100%; }
   .tile.tile-2 .tile-inner {
     color: white;
-    background: white; }
+    background: #485d68; }
   .tile.tile-4 .tile-inner {
     color: white;
-    background: white; }
+    background: #2ca796; }
   .tile.tile-8 .tile-inner {
     color: white;
-    background: white; }
+    background: #8e4c0c; }
   .tile.tile-16 .tile-inner {
     color: white;
-    background: white; }
+    background: #ac1d7f; }
   .tile.tile-32 .tile-inner {
     color: white;
-    background: white; }
+    background: #ffc605; }
   .tile.tile-64 .tile-inner {
     color: white;
-    background: white; }
+    background: #009dcd; }
   .tile.tile-128 .tile-inner {
     color: white;
-    background: white;
+    background: #007541;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     color: white;
-    background: white;
+    background: #ff5500;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
     color: white;
-    background: white;
+    background: #bfcc09;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
     color: white;
-    background: white;
+    background: #003669;
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
     color: white;
-    background: white;
+    background: #f42c59;
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: white;
-    background: #3d3d3d;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -789,47 +787,47 @@ hr {
 
 .cell-2 {
   color: white;
-  background: white; }
+  background: #485d68; }
 
 .cell-4 {
   color: white;
-  background: white; }
+  background: #2ca796; }
 
 .cell-8 {
   color: white;
-  background: white; }
+  background: #8e4c0c; }
 
 .cell-16 {
   color: white;
-  background: white; }
+  background: #ac1d7f; }
 
 .cell-32 {
   color: white;
-  background: white; }
+  background: #ffc605; }
 
 .cell-64 {
   color: white;
-  background: white; }
+  background: #009dcd; }
 
 .cell-128 {
   color: white;
-  background: white; }
+  background: #007541; }
 
 .cell-256 {
   color: white;
-  background: white; }
+  background: #ff5500; }
 
 .cell-512 {
   color: white;
-  background: white; }
+  background: #bfcc09; }
 
 .cell-1024 {
   color: white;
-  background: white; }
+  background: #003669; }
 
 .cell-2048 {
   color: white;
-  background: white; }
+  background: #f42c59; }
 
 .repo-link {
   margin-top: 40px;

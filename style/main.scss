@@ -370,7 +370,7 @@ hr {
   .tile-inner {
     border-radius: $tile-border-radius;
 
-    background: $tile-color;
+    //background: $tile-color;
     text-align: center;
     font-weight: bold;
     z-index: 10;
@@ -416,7 +416,7 @@ hr {
 
       // Set background
       // background: $mixed-background;
-      background: white;
+      background: $special-background;
 
       // Add glow
       $glow-opacity: max($exponent - 4, 0) / ($limit - 4);
@@ -453,7 +453,7 @@ hr {
   // Super tiles (above 2048)
   &.tile-super .tile-inner {
     color: $bright-text-color;
-    background: mix(#333, $tile-gold-color, 95%);
+    // background: mix(#333, $tile-gold-color, 95%);
 
     font-size: 30px;
 
@@ -702,7 +702,7 @@ $exponent: 1;
 
     // Set background
     // background: $mixed-background;
-    background: white;
+    background: $special-background;
 
     // Add glow
     $glow-opacity: max($exponent - 4, 0) / ($limit - 4);

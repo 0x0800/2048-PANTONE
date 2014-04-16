@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048 PANTONE</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="format-detection" content="telephone=no" />
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <div class="title-container">
+        <h1 class="title">2048 <small>PANTONE</small></h1>
+      </div>
+      <div class="scores-container">
+        <div class="score-container">
+          <p>
+            <span class="caption">Score</span><br>
+            <span class="score-points">0</span>
+          </p>
+        </div>
+        <div class="best-container">
+          <p>
+            <span class="caption">Best Score</span><br>
+            <span class="best-points">0</span>
+          </p>
+        </div>
+        <div class="score-container">
+          <p>
+            <span class="caption">Level</span><br>
+            <span class="score-level"></span>
+          </p>
+        </div>
+        <div class="best-container">
+          <p>
+            <span class="caption">Best Level</span><br>
+            <span class="best-level"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Join the <strong>PANTONE colors!</strong></p>
+      <a class="restart-button">New Game</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Continue</a>
+          <a class="retry-button">Retry</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same color touch, you get <strong>the next!</strong><br>
+      Hit 'Z' to <a href="#" onclick="handle_undo()">take back one or more moves</a>.
+    </p>
+    <hr>
+    <p class="tile-legend"><strong class="important">Tile Legend:</strong></p>
+    <hr>
+    <p class="disclaimer">
+    <strong class="important">Note:</strong> This site <a href="http://git.io/tiffany">git.io/tiffany</a> is a spin-off of the official version of <a href="http://git.io/2048">2048</a> created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a>
+    </p>
+    <hr>
+    <p class="credits">
+      Jewels images by <a href="http://www.tiffany.com/?siteid=1&amp;" title="Home | Tiffany & Co.">Tiffany</a>.
+    </p>
+    <p class="repo-link"><small>other games by <a href="https://github.com/0x0800/">0x0800</a></small></p>
+  </div>
+  <script src="js/seedrandom.js"></script>
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+  <script>
+    window.twttr = (function (d,s,id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+      js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+    }(document, "script", "twitter-wjs"));
+  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49474780-6', '0x0800.github.io');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
